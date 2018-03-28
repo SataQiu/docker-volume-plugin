@@ -1,0 +1,51 @@
+{
+	"ImportPath": "docker-volume-plugin-example",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Microsoft/go-winio",
+			"Comment": "v0.4.7",
+			"Rev": "7da180ee92d8bd8bb8c37fc560e673e6557c392f"
+		},
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v1.0.5-2-g90150a8",
+			"Rev": "90150a8ed11b6ce285e77e8af2b0109559ce4777"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-systemd/activation",
+			"Comment": "v16-32-gd7b55e1",
+			"Rev": "d7b55e18be11bfd0d09b6bd1be308332818b4f46"
+		},
+		{
+			"ImportPath": "github.com/docker/go-connections/sockets",
+			"Comment": "v0.3.0-13-g7395e3f",
+			"Rev": "7395e3f8aa162843a74ed6d48e79627d9792ac55"
+		},
+		{
+			"ImportPath": "github.com/docker/go-plugins-helpers/sdk",
+			"Rev": "61cb8e2334204460162c8bd2417cd43cb71da66f"
+		},
+		{
+			"ImportPath": "github.com/docker/go-plugins-helpers/volume",
+			"Rev": "61cb8e2334204460162c8bd2417cd43cb71da66f"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "91a49db82a88618983a78a06c1cbd4e00ab749ab"
+		},
+		{
+			"ImportPath": "golang.org/x/net/proxy",
+			"Rev": "6078986fec03a1dcc236c34816c71b0e05018fda"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "dd2ff4accc098aceecb86b36eaa7829b2a17b1c9"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "dd2ff4accc098aceecb86b36eaa7829b2a17b1c9"
+		}
+	]
+}
